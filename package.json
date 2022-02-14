@@ -1,0 +1,14 @@
+{
+  "name": "node-hello-world",
+  "version": "0.0.1",
+  "description": "A simple node server hello world built in a docker container",
+  "repository": "https://github.com/drifting-in-space/node-hello-world",
+  "license": "MIT",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
